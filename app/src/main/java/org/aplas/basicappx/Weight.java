@@ -15,19 +15,19 @@ public class Weight {
     }
 
     public void setOunce(double ounce){
-        this.gram = ounce * 0.035274;
+        this.gram = ounce * 28.3495231;
     }
 
     public double getOunce(){
-        return (this.gram / 0.035274) ;
+        return (this.gram / 28.3495231) ;
     }
 
     public void setPound(double pound){
-        this.gram = pound * 0.00220462;
+        this.gram = pound * 453.59237;
     }
 
     public double getPound(){
-        return (this.gram / 0.00220462);
+        return (this.gram / 453.59237);
     }
 
     public double convert(String oriUnit, String convUnit, double value){
